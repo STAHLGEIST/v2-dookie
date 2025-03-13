@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 body {
-  background-color: #000344;
+  background-color: #940303;
   color: white;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -30,7 +30,7 @@ a {
 
 .navbutton {
   color: white;
-  background-color: #000344;
+  background-color: #2e2121;
   border: 3px solid white;
   border-radius: 5px;
   padding: 10px;
@@ -65,7 +65,7 @@ button {
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
-  font-family: "DM Sans";
+  font-family: "Comic Sans";
   color: inherit;
   font-size: inherit;
   padding-left: 25px;
@@ -91,3 +91,51 @@ button {
   margin: auto;
   width: 50%
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Transparent Image with Text</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            opacity: 1;
+            z-index: 10;
+        }
+
+        .content {
+            height: 2000px;
+        }
+
+        .text {
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 32px;
+            color: #000;
+            font-weight: bold;
+            z-index: 9;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">they played us like a damn fiddle</div>
+    <img src="https://avatars.fastly.steamstatic.com/caa06ff612161525985bf646412b79be3d839481_full.jpg" alt="Transparent Image">
+    
+    <div class="content"></div>
+</body>
+</html>
