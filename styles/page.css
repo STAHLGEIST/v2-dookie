@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Press+Start+2P&display=swap');
 
 body {
-  background-color: #000344
+  background-color: #1c0306
 }
 
 .navbutton {
@@ -23,7 +23,7 @@ body {
 }
 
 .gamelink, .link {
-  font-family: "DM Sans";
+  font-family: "Comic Sans";
   font-size: 20px;
 }
 
